@@ -1,0 +1,38 @@
+{
+	"schemaVersion": 1,
+	"id": "traumaticsins",
+	"version": "${version}",
+	"name": "Traumatic Sins",
+	"description": "Your trauma will fuel your sins.",
+	"authors": [
+		"Underplayer97"
+	],
+	"contact": {
+		"homepage": "https://underplayer97.github.io",
+		"sources": "https://github.com/Underplayer97/TraumaticSins",
+		"issues": "https://github.com/Underplayer97/TraumaticSins/issues"
+	},
+	"license": "LGPL-3.0",
+	"icon": "assets/traumaticsins/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"io.github.underplayer97.traumaticsins.SinsMain"
+		],
+		"client": [
+			"io.github.underplayer97.traumaticsins.SinsClient"
+		]
+	},
+	"mixins": [
+		"traumaticsins.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.9",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
