@@ -20,6 +20,16 @@ repositories {
 			includeGroup("com.eliotlash.mclib")
 		}
 	}
+
+	maven {
+		name = "BlameJared"
+		url = "https://maven.blamejared.com/"
+	}
+	maven {
+		name = "Devos"
+		url = "https://mvn.devos.one/releases/"
+	}
+
 	maven {
 		name = "Modrinth"
 		url = "https://api.modrinth.com/maven"
@@ -38,6 +48,21 @@ repositories {
 	maven {
 		name = "XanderMaven"
 		url = "https://maven.isxander.dev/releases"
+	}
+
+	maven {
+		name = "JamiesWhiteShirt"
+		url = "https://maven.jamieswhiteshirt.com/libs-release"
+	}
+
+	maven {
+		name = "TheIllusiveC4"
+		url = "https://maven.theillusivec4.top/"
+	}
+
+	maven {
+		name = "Ladysnake"
+		url = "https://maven.ladysnake.org/releases"
 	}
 
 }
@@ -84,7 +109,27 @@ dependencies {
 
 	//YetAnotherConfigLib
 	modApi include ("dev.isxander:yet-another-config-lib:${project.yacl_version}+${project.minecraft_version}-fabric")
-	
+
+	//Lodestone
+	modImplementation("team.lodestar.lodestone:lodestone:${project.minecraft_version}-${project.lodestone_version}-fabric")
+
+	//Cardinal Components
+	modImplementation("dev.onyxstudios.cardinal-components-api:cardinal-components-base:${project.cca_version}")
+	modImplementation("dev.onyxstudios.cardinal-components-api:cardinal-components-entity:${project.cca_version}")
+	modImplementation("dev.onyxstudios.cardinal-components-api:cardinal-components-world:${project.cca_version}")
+
+	//Trinkets
+	modImplementation("dev.emi:trinkets:${project.trinkets_version}")
+
+	//PortingLib
+	for (String module in port_lib_modules.split(",")) {
+		modImplementation("io.github.fabricators_of_create.Porting-Lib:$module:$port_lib_version")
+	}
+
+	//Reach Entity Attributes
+	modImplementation("com.jamieswhiteshirt:reach-entity-attributes:${project.rea_version}")
+
+
 }
 
 processResources {
