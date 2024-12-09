@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "front": "traumaticsins:block/tungsten_furnace_front",
+    "side": "traumaticsins:block/tungsten_furnace_side",
+    "top": "traumaticsins:block/tungsten_block"
+  }
+}

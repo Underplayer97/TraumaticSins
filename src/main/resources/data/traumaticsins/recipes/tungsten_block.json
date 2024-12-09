@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "tungsten_block",
+  "ingredients": [
+    {
+      "item": "traumaticsins:tungsten_ingot"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "traumaticsins:tungsten_block"
+  }
+}

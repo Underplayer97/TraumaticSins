@@ -1,0 +1,27 @@
+{
+  "item.traumaticsins.tungsten_sword": "Tungsten Sword",
+  "item.traumaticsins.tungsten_pickaxe": "Tungsten Pickaxe",
+  "item.traumaticsins.tungsten_shovel": "Tungsten Shovel",
+  "item.traumaticsins.tungsten_axe": "Tungsten Axe",
+  "item.traumaticsins.tungsten_hoe": "Tungsten Hoe",
+
+  "item.traumaticsins.obsidian_rod": "Obsidian Rod",
+
+  "item.traumaticsins.tungsten_helmet": "Tungsten Helmet",
+  "item.traumaticsins.tungsten_chestplate": "Tungsten Chestplate",
+  "item.traumaticsins.tungsten_leggings": "Tungsten Leggings",
+  "item.traumaticsins.tungsten_boots": "Tungsten Boots",
+
+  "item.traumaticsins.raw_tungsten": "Raw Tungsten",
+  "item.traumaticsins.tungsten_ingot": "Tungsten Ingot",
+
+  "block.traumaticsins.tungsten_ore": "Tungsten Ore",
+  "block.traumaticsins.deepslate_tungsten_ore": "Deepslate Tungsten Ore",
+  "block.traumaticsins.tungsten_block": "Tungsten Block",
+  "block.traumaticsins.tungsten_furnace": "Tungsten Furnace",
+
+  "container.tungsten_furnace": "Tungsten Furnace",
+
+  "itemGroup.traumaticsins.item_group": "Traumatic Items",
+  "itemGroup.traumaticsins.block_group": "Traumatic Blocks"
+}

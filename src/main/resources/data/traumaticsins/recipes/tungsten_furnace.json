@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:furnace"
+    },
+    "X": {
+      "item": "traumaticsins:raw_tungsten"
+    }
+  },
+  "pattern": [
+    "XXX",
+    "X#X",
+    "XXX"
+  ],
+  "result": {
+    "item": "traumaticsins:tungsten_furnace"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": {
+      "item": "traumaticsins:obsidian_rod"
+    },
+    "X": {
+      "item": "traumaticsins:tungsten_ingot"
+    }
+  },
+  "pattern": [
+    "XXX",
+    " # ",
+    " # "
+  ],
+  "result": {
+    "item": "traumaticsins:tungsten_pickaxe"
+  },
+  "show_notification": true
+}
