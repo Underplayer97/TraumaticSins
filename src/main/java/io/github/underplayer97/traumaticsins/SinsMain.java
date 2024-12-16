@@ -1,6 +1,7 @@
 package io.github.underplayer97.traumaticsins;
 
 import io.github.underplayer97.traumaticsins.block.SinsBlocks;
+import io.github.underplayer97.traumaticsins.block.entity.SinsBlockEntity;
 import io.github.underplayer97.traumaticsins.item.SinsItemGroups;
 import io.github.underplayer97.traumaticsins.item.SinsItems;
 import net.fabricmc.api.ModInitializer;
@@ -23,6 +24,7 @@ public class SinsMain implements ModInitializer {
 		SinsBlocks.registerSinsBlocks();
 		SinsItems.registerSinsItems();
 		SinsItemGroups.registerSinsBlockGroups();
+		SinsBlockEntity.registerBlockEntity();
 
 	}
 }
